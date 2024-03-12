@@ -9,7 +9,7 @@
 
 ### [**Project Description**](#) <a name="descr"></a>
 
-The aim of this project was to apply various data preprocessing techniques and machine learning algorithms and evaluate the performance of these algorithms on a data set regarding flights. In particular, a set of data which consists of several thousand flights to America was given, where each flight is described by a set of variables (airport of departure, airport of arrival, etc.). Each flight is also characterized by a variable related to the number of passengers on the flight (e.g. each value of the variable is related to a range of passenger numbers). For some flights, the value of the variable is known, while for others it is not. The goal was to predict the value of the variable for flights for which it is not available.
+The aim of this project is to investigate various data preprocessing techniques and machine learning algorithms and evaluate their performance on a dataset related to flights. In particular, a set of data consisting of several thousand flights to America is provided, where each flight is described by a set of variables such as departure and arrival airports. Additionally, each flight is associated with a variable representing the number of passengers onboard, categorized into ranges. While this variable is known for some flights, it is missing for others. The project aims to predict this variable for flights where this information was unavailable.
 
 The project was implemented in the context of the course "Data Science & Web Mining" taught by Prof. Vazirgiannis Michalis in the Department of Informatics (AUEB) and it was part of the following **Kaggle** competition: [INF131: The case of flight passengers prediction](https://www.kaggle.com/c/inf131-data-mining/overview/description).
 
@@ -41,7 +41,7 @@ The training set contains the additional variable **PAX** (*int64*), which is re
 
 #### Data Preprocessing Techniques:
 
-- Feature creation
+- Feature engineering
 - Min-max normalization
 - One-hot-encoding for object variables
 - Principal components analysis for feature extraction
