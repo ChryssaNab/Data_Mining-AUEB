@@ -2,7 +2,7 @@
 
 ### [**Contents**](#)
 1. [Project Description](#descr)
-2. [Data set Description](#dataset)
+2. [Dataset Description](#dataset)
 3. [Implementation Process](#Impl)
 4. [Team](#Team)
 
@@ -13,7 +13,7 @@ The aim of this project is to investigate various data preprocessing techniques 
 
 The project was implemented in the context of the course "Data Science & Web Mining" taught by Prof. Vazirgiannis Michalis in the Department of Informatics (AUEB) and it was part of the following **Kaggle** competition: [INF131: The case of flight passengers prediction](https://www.kaggle.com/c/inf131-data-mining/overview/description).
 
-### [**Data Set Description**](#) <a name="dataset"></a>
+### [**Dataset Description**](#) <a name="dataset"></a>
 
 The files we examined are the following:
 
