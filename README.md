@@ -6,12 +6,15 @@
 3. [Implementation Process](#Impl)
 4. [Team](#Team)
 
+---
 
 ### [**Project Description**](#) <a name="descr"></a>
 
 The aim of this project is to investigate various data preprocessing techniques and machine learning algorithms and evaluate their performance on a dataset related to flights. In particular, a set of data consisting of several thousand flights to America is provided, where each flight is described by a set of variables such as departure and arrival airports. Additionally, each flight is associated with a variable representing the number of passengers onboard, categorized into ranges. While this variable is known for some flights, it is missing for others. The project aims to predict this variable for flights where the information was unavailable.
 
 The project was implemented in the context of the course "Data Science & Web Mining" taught by Prof. Vazirgiannis Michalis at the Department of Informatics, AUEB. Additionally, it was part of the **Kaggle** competition: [INF131: The case of flight passengers prediction](https://www.kaggle.com/c/inf131-data-mining/overview/description).
+
+---
 
 ### [**Dataset Description**](#) <a name="dataset"></a>
 
@@ -36,6 +39,8 @@ The file named "train.csv" contains the training data of the problem, while the 
 
 The training set includes an additional variable called **PAX (int64)**, which represents the number of passengers on each flight. This variable has eight distinct values ranging from 0 to 7, resulting in a total of 8 categories. Each category signifies the range of passengers boarding the flight, with the actual numbers within the categories being randomly assigned. Notably, the variable PAX is absent from the test set, as predicting it is the primary objective of this assignment.
 
+---
+
 ### [**Implementation Process**](#) <a name="Impl"></a>
 
 #### Data Preprocessing Techniques:
@@ -58,10 +63,13 @@ The training set includes an additional variable called **PAX (int64)**, which r
 - Number of neighbors and the algorithm employed to compute the nearest neighbors for the KNN classifier.
 - Hidden layer size, activation functions, optimizers, weight initializers, number of epochs, dropout regularization, and learning rate for ANNs
 
+---
 
 #### Proposed Model:
 
 ![Model](mlp.png)
+
+---
 
 ### [**Team**](#) <a name="Team"></a>
 
