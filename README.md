@@ -1,4 +1,4 @@
-# Supervised Learning - Multiclass classification problem: Build a classifier to predict the number of passengers in flights
+# Multiclass classification problem: Build a classifier to predict the number of passengers in flights
 
 ### [**Contents**](#)
 1. [Project Description](#descr)
