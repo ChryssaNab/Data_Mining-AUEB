@@ -37,7 +37,7 @@ The file named "train.csv" contains the training data of the problem, while the 
 - **WeeksToDeparture:** What was the average number of weeks before departure that passengers booked their tickets (*float64*)
 - **std_wtd:** Standard deviation for the "WeeksToDeparture" variable (*float64*)
 
-The training set includes an additional variable called **PAX (int64)**, which represents the number of passengers on each flight. This variable has eight distinct values ranging from 0 to 7, resulting in a total of 8 categories. Each category signifies the range of passengers boarding the flight, with the actual numbers within the categories being randomly assigned. Notably, the variable PAX is absent from the test set, as predicting it is the primary objective of this assignment.
+The training set contains an additional variable called **PAX (int64)**, which represents the number of passengers on each flight. This variable has eight distinct values ranging from 0 to 7, resulting in a total of 8 categories. Each category signifies the range of passengers boarding the flight, with the actual numbers within the categories being randomly assigned. Notably, the variable PAX is not included in the test set, as the task revolves around predicting it.
 
 ---
 
