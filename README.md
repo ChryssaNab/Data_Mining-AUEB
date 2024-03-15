@@ -10,9 +10,9 @@
 
 ### [**Project Description**](#) <a name="descr"></a>
 
-The aim of this project is to investigate various data preprocessing techniques and machine learning algorithms and evaluate their performance on a dataset related to flights. In particular, a set of data consisting of several thousand flights to America is provided, where each flight is described by a set of variables such as departure and arrival airports. Additionally, each flight is associated with a variable representing the number of passengers onboard, categorized into ranges. While this variable is known for some flights, it is missing for others. The project aims to predict this variable for flights where the information was unavailable.
+The aim of this project is to investigate various data preprocessing techniques and machine learning algorithms and evaluate their performance on a dataset related to flights. In particular, a set of data consisting of several thousand flights to America is provided, where each flight is described by a set of variables such as departure and arrival airports. Additionally, each flight is associated with a variable representing the number of passengers onboard, categorized into ranges. While this variable is known for some flights, it is missing for others. This project aims to predict this variable for flights where the information was unavailable.
 
-The project was implemented in the context of the course "Data Science & Web Mining" taught by Prof. Vazirgiannis Michalis at the Department of Informatics, AUEB. Additionally, it was part of the **Kaggle** competition: [INF131: The case of flight passengers prediction](https://www.kaggle.com/c/inf131-data-mining/overview/description).
+The project was implemented in the context of the course "Data Science & Web Mining" taught by Prof. Vazirgiannis Michalis at the Department of Informatics, AUEB. Additionally, it was part of the **Kaggle** competition: [INF131: The case of flight passengers prediction](https://www.kaggle.com/c/inf131-data-mining/overview/description), where we secured the 3rd place in the private leaderboard.
 
 ---
 
