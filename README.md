@@ -20,8 +20,8 @@ The project was implemented in the context of the course "Data Science & Web Min
 
 The files we examined are the following:
 
-- train.csv - 8,899 labeled flights. One flight and label per row.
-- test.csv - 2,229 flights. One flight per row.
+- train.csv — 8,899 labeled flights, with each row representing one flight along with its corresponding label.
+- test.csv — 2,229 flights, with each flight represented in a separate row.
 
 The file named "train.csv" contains the training data of the problem, while the file "test.csv" contains the test set of the problem. Each entry in these files represents a flight, featuring the following variables:
 
